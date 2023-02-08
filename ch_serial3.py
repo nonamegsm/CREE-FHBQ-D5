@@ -260,7 +260,7 @@ def read_status():
     
     if PRINT_CHECK: print (" %s seconds  " % (time.time() - start_time))
     #packet = HexToByte(''.join(rx))
-    if PRINT_CHECK: print ('packet = ' + rx)
+    if PRINT_CHECK: print ('packet = ' + ''.join(rx))
     
     return status
 
