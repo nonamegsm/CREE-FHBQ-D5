@@ -20,9 +20,9 @@ SRL = serial.Serial(
 TRY = False
 # print const
 PRINT_CHECK     = True
-PRINT_PREINFO   = False
-PRINT_MASTER    = False
-PRINT_PAST      = False
+PRINT_PREINFO   = True
+PRINT_MASTER    = True
+PRINT_PAST      = True
 # return status const
 # it's test read data
 STATUS_READ_ERROR = True
