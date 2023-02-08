@@ -303,8 +303,8 @@ def run_com(cm):
                 if (cm[2] == 'off' and rx[9] == '47'):  rx[9] = 'c7'        #'bypass: off; '
 
                 if (cm[0] == 'n' or cm[0] == 'ne' or cm[0] == 'ns'):
-                    rx[13] = '20'
-                    #rx[13] = '00'
+                    #rx[13] = '20'
+                    rx[13] = '00'
                     if (cm[0] == 'n' and cm[1] == '1'): rx[10] = '0c'         #'mode: normal; speed: 1; '
                     if (cm[0] == 'n' and cm[1] == '2'): rx[10] = '12'         #'mode: normal; speed: 2; '
                     if (cm[0] == 'n' and cm[1] == '3'): rx[10] = '21'         #'mode: normal; speed: 3; '
